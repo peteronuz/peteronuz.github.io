@@ -1,0 +1,8 @@
+ 
+p {
+    background-color: rgb(141, 141, 250);
+    border: 10px coral dotted;
+    padding: 5vw;
+    margin: auto;
+    font-family: 'arial', monospace
+}
