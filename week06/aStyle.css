@@ -1,0 +1,49 @@
+body{
+   
+    background-color: rgb(238, 173, 195);
+    height: 90vh;
+    display: grid;
+    place-items: center;
+
+}
+
+.ball:hover .ball2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(white, pink, red);
+    position: relative;
+ 
+    animation-name: grow ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+
+  .ball2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(234, 197, 197), rgb(143, 57, 71), rgb(155, 5, 5));
+    position: relative;
+   
+    animation: bounce 1s infinite;
+  }
+
+  @keyframes grow {
+    0%{transform: scale(0.5);}
+    25%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    75% { transform: scale(2);}
+    100%{transform: scale(2.5);}
+  }
+  
+  @keyframes bounce {
+    0% { top: 0px;}
+
+    50% { top: 200px;}
+
+    100% { top: 00px; }
+  
+  }
+
+
