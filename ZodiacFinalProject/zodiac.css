@@ -1,0 +1,87 @@
+body
+{
+	background: linear-gradient(to right,#d5d5d5  40%,#e1e1e1  60%);
+}
+#container
+{
+	width:80%;
+	height: 700px;
+	font-size: 	30px;
+    font-family: 'Roboto', sans-serif;
+    	color: rgb(39, 39, 39);
+	margin: auto; 
+}
+#header
+{
+	height: 70px;
+	line-height: 70px;
+	font-family: Greek-Freak;
+    font-size: 50px;
+	color: #f3bb2f;
+	text-align: center;
+}
+
+.wreathimage
+ {
+	 position: relative;
+	  top: -500px; 
+	  display: block;
+      margin: 0 auto;
+	  margin-top: 50px;
+	}
+
+p{
+	position: relative;
+    top: -250px;
+}
+
+.p1{
+	position: relative;
+    top: -200px;
+}
+#textrow2
+{
+	font-size: 	20px;
+    font-family: 'Roboto', sans-serif;
+    background: #006838;
+	color:white;
+	user-select: none;
+}
+
+#img_horo
+{
+	margin-right:150px;
+	height: 40px;
+	width: 50px;
+	top:50%;
+	left:-50%;
+	transform: translate(1800%,250%);
+}
+#horoscope
+{
+	font-size: 	30px;
+    font-family: 'Roboto', sans-serif;
+    	color:white;
+	background: #006838;
+	border-radius: 10px;
+
+}
+
+#txt
+{
+	font-size: 	20px;
+    font-family: 'Roboto', sans-serif;
+}
+#restartbtn
+{
+	float: right;
+	font-size: 	25px;
+	font-family: Greek-Freak;
+	color:white;
+	background: #006838;
+	border-radius: 10px;;
+	border: none;
+}
+
+
+
